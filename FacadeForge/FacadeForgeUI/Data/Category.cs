@@ -18,7 +18,7 @@ namespace FacadeForgeUI.Data
         public string Type { get; set; } = "Expense";*/
 
         // Навигационные свойства для связи с инструментами и материалами
-        public ICollection<Tool> Tools { get; set; }
-        public ICollection<Material> Materials { get; set; }
+        public ICollection<Tool>? Tools { get; set; }
+        public ICollection<Material>? Materials { get; set; }
     }
 }
